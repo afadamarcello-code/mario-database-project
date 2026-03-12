@@ -1,3 +1,5 @@
 psql --username=freecodecamp --dbname=mario_database
 psql --username=freecodecamp --dbname=mario_database
 psql --username=freecodecamp --dbname=mario_database
+pg_dump -CC --inserts -U freecodecamp mario_database > mario_database.sql
+git add .
